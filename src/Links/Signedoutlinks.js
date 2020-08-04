@@ -11,7 +11,7 @@ const Signedoutlinks = () =>{
     }
     return(
         <div>
-            <li><Link to="/dashboard">{ user===null? 'Loading..' : user.displayName}</Link></li>
+            <li><Link className="white-text" to="/dashboard">{ user===null? 'Loading..' : user.displayName}</Link></li>
             <li>
                     
                 <button  onClick={handlesignout} className="mybutton" >

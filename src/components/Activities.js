@@ -5,7 +5,7 @@ const Activities = (props) =>{
     const history = useHistory();
     return(
         
-            <div className="card card-panel hoverable center-align white">
+            <div className="card hoverable center-align white">
                 <div className="card-content">
                     <button onClick ={(e)=>{
                         history.push('website/add')
