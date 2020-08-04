@@ -10,10 +10,10 @@ const Dashboard = () =>{
         return loginstatus===true? (
             <div>
                 <div className="row">
-                    <div className="col s6">
+                    <div className="col s12 m7 l6">
                         <Activities/>
                     </div>
-                    <div className="col s6">
+                    <div className="col s12 m5 l6">
                         <Profile/>
                     </div>
                     
