@@ -81,6 +81,7 @@ hr{
 .sidenav{
   background-color: #00c853;
   color: white;
+  max-width: 50%;
 }
 
 
