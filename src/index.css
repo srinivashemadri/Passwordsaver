@@ -5,9 +5,81 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+Link{
+  text-decoration: none;
+  color: white;
+}
+
+.mybutton{
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  color: white;
+  
+}
+
+.mybutton:hover{
+  
+  background-color:transparent;
+  cursor: pointer;
+}
+
+.card-title{
+  color: #00e676;
+}
+
+.my-card-title{
+  color: #00c853;
+  font-style: italic;
+}
+.my-card-subtitle{
+  color: #69f0ae;
+}
+
+.btn-block{
+  width: 100%;
+  margin: 1rem;
+}
+
+.my-card{
+  width: 60%;
+  margin: 40px auto;
+  
+}
+
+.btn{
+  margin: 5px;
+}
+
+.my-home{
+  font-size: larger;
+  margin-left: 2rem;
+}
+
+ul{
+  list-style: square;
+  color: white;
+}
+
+hr{
+  background-color: white;
+  height: 1px;
+}
+
+.abc{
+  margin-left: 2rem;
+}
+
+
+
+
+
+
